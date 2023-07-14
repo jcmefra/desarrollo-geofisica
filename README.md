@@ -1,5 +1,5 @@
-#Geoeléctrica
+# Geoeléctrica
 (Pendiente descripción)
 
-#Sísmica
+# Sísmica
 (Pendiente descripción)
