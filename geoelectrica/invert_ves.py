@@ -9,7 +9,7 @@ rhoa = (txt[:,6])
 
 ves = VESManager()
 # %%%
-ves.invert(data=rhoa, error=0.1, ab2=ab2, mn2=ab2/3,
+ves.invert(data=rhoa, error=0.1, ab2=ab2, mn2=mn2,
            nLayers=4,
            # startModel=[3]*3+[100]*4,
            lam=1000, lambdaFactor=0.8
