@@ -2,7 +2,7 @@ import numpy as np
 import pygimli as pg
 from pygimli.physics import VESManager
 
-txt = np.loadtxt('sev_2.sdg.TXT', delimiter='\t', skiprows=1) #Import txt, csv or file with the data
+txt = np.loadtxt('geoelectrica/sev_2.sdg.TXT', delimiter='\t', skiprows=1) #Import txt, csv or file with the data
 ab2 = (txt[:,0])  # AB/2 distance (current electrodes)
 mn2 = [mn/2 for mn in (txt[:,1])]
 rhoa = (txt[:,6])
