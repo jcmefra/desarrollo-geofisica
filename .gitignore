@@ -1,6 +1,12 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
 
+.vector
+.INV
+.bms
+.vtk
+.identifier
+.vec
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -11,7 +17,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
-.identifier
+
 .Python
 build/
 develop-eggs/
